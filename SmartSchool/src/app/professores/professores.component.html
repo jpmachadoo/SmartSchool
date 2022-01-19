@@ -1,3 +1,7 @@
-<p>
-  professores works!
-</p>
+<h1>{{title}}</h1>
+
+<ul>
+  <li *ngFor="let prof of professores">
+    {{prof.nome}}
+  </li>
+</ul>
