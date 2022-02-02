@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'perfil', component: PerfilComponent },
-  { path: 'prof',   component: ProfessoresComponent },
+  { path: 'professores',   component: ProfessoresComponent },
   { path: 'alunos', component: AlunosComponent },
 ];
 

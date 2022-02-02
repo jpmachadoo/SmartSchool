@@ -9,10 +9,10 @@ export class ProfessoresComponent implements OnInit {
 
   titulo = 'Professores';
   professores = [
-    { nome: "Carlos" },
-    { nome: "Maria Regina" },
-    { nome: "José" },
-    { nome: "Eunice" },
+    { id: 1, nome: 'Carlos', disciplina: 'Matemática' },
+    { id: 2, nome: 'Maria Regina', disciplina: 'Física' },
+    { id: 3, nome: 'José', disciplina: 'Geografia' },
+    { id: 4, nome: 'Eunice', disciplina: 'Inglês' }
   ]
   constructor() { }
 
